@@ -35,7 +35,7 @@ function gameFlash(btn) {
 }
 
 function userFlash(btn) {
-    if (started) {
+    if (started==true) {
         btn.classList.add("userflash");
         setTimeout(function () {
             btn.classList.remove("userflash");
@@ -113,3 +113,4 @@ function instruction() {
     let lose = document.getElementById("lose");
     lose.innerHTML = `You Lose the Game! Your Score is <b>${level - 1}</b>.`;
 }
+
