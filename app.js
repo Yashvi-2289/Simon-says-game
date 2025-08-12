@@ -56,7 +56,7 @@ function checkbtn(idx) {
             setTimeout(function () {
                 lose.innerHTML = "";
             }, 4000);
-            setTimeout(reset, 300);
+            setTimeout(reset, 3000);
             document.body.style.backgroundColor = "rgba(169, 164, 168, 1)";
             setTimeout(function () {
                 document.body.style.backgroundColor = "rgb(11, 32, 61)";
@@ -113,4 +113,5 @@ function instruction() {
     let lose = document.getElementById("lose");
     lose.innerHTML = `You Lose the Game! Your Score is <b>${level - 1}</b>.`;
 }
+
 
