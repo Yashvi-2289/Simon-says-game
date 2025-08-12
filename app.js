@@ -11,6 +11,7 @@ document.addEventListener("keypress", function () {
         document.getElementById("gamestartsound").play();
         let p = document.querySelector("p");
         p.innerHTML = " ";
+        lose.innerHTML = "";
         started = true;
         levelup();
     }
@@ -21,6 +22,7 @@ button.addEventListener("click", function () {
     if (!started) {
         document.getElementById("gamestartsound").play();
         console.log("game is started");
+        lose.innerHTML = "";
         started = true;
         levelup();
     }
@@ -113,6 +115,7 @@ function instruction() {
     let lose = document.getElementById("lose");
     lose.innerHTML = `You Lose the Game! Your Score is <b>${level - 1}</b>.`;
 }
+
 
 
 
