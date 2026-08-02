@@ -5,6 +5,7 @@
 🚀 Live Demo:
 👉[Play Now](https://yashvi-2289.github.io/Simon-says-game/)
 
+
 📷📷 Game Preview:
 <img width="2450" height="1225" alt="Simon-say-1" src="https://github.com/user-attachments/assets/89ece887-f232-4c32-9fa4-be9fff14e6e5" />
 <img width="2560" height="1239" alt="simon-say-2" src="https://github.com/user-attachments/assets/fd3c6ff8-c2a1-4bf9-90b6-319f934b8e5b" />
